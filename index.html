@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- meta tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Pretty Pandey, Front-end Web Developer">
+<meta name="keywords" content="Front-end Developer, Front-end Web Developer, Front-end Development,Front-end Web Development, Web Developer, Web Development">
+<meta name="author" content="Pretty Pandey">
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<!-- style -->
+<link href="index.css" rel="stylesheet" />
+<title>Pretty Pandey | Front-end Developer</title>
+<!-- favicon -->
+<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+<link rel="icon" type="image/x-icon" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/x-icon" href="img/favicon/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="img/favicon/android-chrome-512x512.png">
+<link rel="icon" type="image/x-icon" href="img/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/x-icon" href="img/favicon/apple-touch-icon.png">
+
+</head>
+
+<body>
+	<nav>
+		<div class="social-media">
+			<a class="social-link" href="https://www.github.com/pandeypearl" target="_blank"><i class="bi bi-github"></i></a>
+			<a class="social-link" href="https://www.dribbble.com/prettypandey_dev" target="_blank"><i class="bi bi-dribbble"></i></a>
+			<a class="social-link" href="https://www.instagram.com/prettypandey_dev" target="_blank"><i class="bi bi-instagram"></i></a>
+			<!--<a class="social-link" href="https://www.twitter.com/prettyppandey" target="_blank"><i class="bi bi-twitter"></i></a>-->
+		</div>
+		<ul class="navigation">
+			<li class="skillset"><a href="#skillset">skill</a></li>
+			<li class="work"><a href="#work">my work</a></li>
+			<li class="contact"><a href="#contact">contact</a></li>
+		</ul>
+	</nav>
+
+	<header class="landing-section">
+		<div class="profile">
+			<img src="img/profile/profile-mono.webp" alt="profile head shot" />
+			<div class="profile-overlay"></div>
+		</div>
+		<div class="landing-text">
+			<h1>Pretty Pandey</h1>
+			<h2>Front End Developer</h2>
+			<div class="btn-wrapper">
+				<a class="btn" href="#contact">brief me </a>
+			</div>
+		</div>
+	</header>
+		
+	<div class="wrapper">
+
+		<section class="skill-section" id="skillset">
+			<div id="skillSetInfo">
+			</div>
+		</section>
+		
+		<section class="work-section" id="work">
+			<div id="portfolioInfo">
+			</div>
+		</section>
+		
+		<section class="contact-section" id="contact">
+			<div class="contact-wrapper">
+				<div>
+					<h1>Contact Me</h1>
+					<h4>If you're looking to work with me for a project please include the following :</h4>
+					<ul>
+						<li>Who the project is for <br> eg. Personal Brand, Start up, Small Business, Corporation.</li>
+						<li>A short description about the brand and the brand mission.</li>
+						<li>All the functionality for your project. You don't have to use technical terms , just describe what you would like the web application to do and I will figure out the rest.</li>
+						<li>Your budget.</li>
+						<li>Your time line.</li>
+					</ul>
+					
+					<p><small>* The above helps me give you an accurate quote as soon as possible, thank you for taking the time to do so.</small></p>
+					<div class="btn-wrapper">
+						<a class="btn" href="mailto:prettypandeypearl@gmail.com">get in touch</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	<footer>
+		<small>&copy; Pretty Pandey <span id="currentYear">2022</span></small>
+		<button id="topButton" onclick="topFunction()">Top</button>
+	</footer>
+	
+	<!-- Page JS-->
+	<script>
+		const date = new Date();
+		let year = date.getFullYear();
+		document.getElementById("currentYear").innerHTML = year;
+		
+		
+	</script>
+	<script src="portfolio.js"></script>
+	<script src="skillset.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" 
+	integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" 
+	integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="main.js"></script>
+	
+</body>
+
+
+</html>
