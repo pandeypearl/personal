@@ -5,7 +5,7 @@ let portfolioData = [
 		desc: "Ecommerce Web Application",
 		stack: "HTML &nbsp;&nbsp; CSS &nbsp;&nbsp; JavaScript",
 		project_link: "https://pandeypearl.github.io/gstore",
-		img: "img/projects/groceries.png",
+		img: "img/projects/gstore.webp",
 		background_color: "green",
 	}
 ];
